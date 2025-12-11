@@ -1,0 +1,71 @@
+/* General Page Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f7ff;
+}
+
+/* Header */
+header {
+    background: #004a99;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+nav {
+    background: #002f5e;
+    padding: 12px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    margin: 0 6px;
+    font-size: 18px;
+    display: inline-block;
+}
+nav a:hover {
+    background: white;
+    color: #002f5e;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+section {
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #003b7a;
+}
+
+/* Menu List */
+ul {
+    font-size: 19px;
+    line-height: 30px;
+}
+
+/* Button Styling */
+button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background: #0077ff;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background: #0056cc;
+}
